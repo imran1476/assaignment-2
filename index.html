@@ -11,12 +11,12 @@
 </head>
 <body>
     <header>
-<nav class="grid grid-cols-2 mx-auto w-[1140px]   mt-5">
+<nav class=" mx-auto max-w-[1140px]   mt-5 flex flex-col md:flex-row justify-between gap-4">
     <div>
         <img src="image/logo.png " alt="">
     </div>
     <div>
-        <ul class="cursor-pointer grid grid-cols-4 mt-10 inter font-bold ">
+        <ul  class="mx-10 grid grid-cols-1 sm:grid-cols-4 gap-4 inter font-bold">
           
             <li><a href="https://www.mercadoglobal.org/" class="hover:text-blue-600  ">Home</a></li>
             <li><a href="https://www.mercadoglobal.org/pages/store-hand-woven" class="hover:text-blue-600  ">Shop</a></li>
@@ -25,63 +25,67 @@
         </ul>
     </div>
 </nav>
-<section class="grid grid-cols-2 place-items-center  mx-auto w-[1140px] mt-50 ">
-    <div class="mt-10">
-<h2 class="text-6xl font-bold leading-snug text-[#000000] noto-serif">
-    ALWAYS <span class="text-[#E95A08]">FRESH<br>FLOWERS </span></h2>
-    <p class=" mt-5 inter text-xl font-normal leading-tight text-[#000000]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+<section class="mx-auto max-w-[1140px] grid grid-cols-1 md:grid-cols-2 gap-10 mt-10 px-4 items-center">
 
-    </div>
-    <div>
-        <img src="image/hero-flower.png" alt="">
-    </div>
+  <div class="order-1 md:order-2">
+    <img src="image/hero-flower.png" alt="" class="w-full h-auto">
+  </div>
+
+  <div class="order-2 md:order-1">
+    <h2 class="text-4xl font-bold leading-snug text-[#000000] noto-serif">
+      ALWAYS <span class="text-[#E95A08]">FRESH<br>FLOWERS</span>
+    </h2>
+    <p class="mt-5 inter text-xl font-normal text-[#000000]">
+      Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.
+    </p>
+  </div>
 </section>
-<section class=" w-[1140px] mx-auto">
 
-    <div  claas="mt-40">
-        <h4 class=" leading-snug mt-20 mx-auto text-center noto-serif text-5xl font-bold w-[1140px]"><span class="text-[#E95A08]">Our</span> Plants</h4>
-        <p class="mx-auto w-[880px] grid place-items-center text-center inter text-xl font-normal text-[#000000]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br>classic roses to exotic blooms, we offer a wide variety of fresh.</p>
-    </div>
-   <div class="grid grid-cols-4 gap-y-5 place-items-center mt-15 ">
-     <div class="w-[270px]">
+ <section class="max-w-[1140px] mx-auto mt-20 px-4 grid gap-x-2 text-center">
+            <h4 class="text-4xl font-bold"><span class="text-[#E95A08]">Our</span> Plants</h4>
+            <p class="text-xl mt-4">
+                Indulge your senses with the beauty and fragrance of our fresh flower shop. From<br>classic roses to exotic blooms, we offer a wide variety of fresh.
+            </p>
+   <div class="grid  grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8  place-items-center mt-10 ">
+     <div class=" w-full max-w-[270px] mx-auto">
         <img src="image/sample-flower-image.png" alt=""><br>
         <p class="text-center inter font-medium text-xl">Lily Blossom <br><span class="noto serif font-bold text-xl">20 USD</span></p><br>
-        <button class="bg-[#E95A08] w-[270px] hover:bg-amber-800 cursor-pointer py-2 text-white">Add to Cart</button>
+           <button class="bg-[#E95A08] hover:bg-amber-800 mt-4 w-full py-2 text-white">Add to Cart</button>
     </div>
-     <div class="w-[270px]">
+     <div class="w-full max-w-[270px] mx-auto">
         <img src="image/sample-flower-image.png" alt=""><br>
         <p class="text-center inter font-medium text-xl">Lily Blossom <br><span class="noto serif font-bold text-xl">20 USD</span></p><br>
-        <button class="bg-[#E95A08] w-[270px] hover:bg-amber-800 cursor-pointer py-2 text-white">Add to Cart</button>
+          <button class="bg-[#E95A08] hover:bg-amber-800 mt-4 w-full py-2 text-white">Add to Cart</button>
     </div>
-     <div class="w-[270px]">
+     <div class=" w-full max-w-[270px] mx-auto">
         <img src="image/sample-flower-image.png" alt=""><br>
         <p class="text-center inter font-medium text-xl">Lily Blossom <br><span class="noto serif font-bold text-xl">20 USD</span></p><br>
-        <button class="bg-[#E95A08] w-[270px] hover:bg-amber-800 cursor-pointer py-2 text-white">Add to Cart</button>
+        <button class="bg-[#E95A08] hover:bg-amber-800 mt-4 w-full py-2 text-white">Add to Cart</button>
     </div>
-     <div class="w-[270px]">
+     <div class=" w-full max-w-[270px] mx-auto">
         <img src="image/sample-flower-image.png" alt=""><br>
         <p class="text-center inter font-medium text-xl">Lily Blossom <br><span class="noto serif font-bold text-xl">20 USD</span></p><br>
-        <button class="bg-[#E95A08] w-[270px] hover:bg-amber-800 cursor-pointer py-2 text-white">Add to Cart</button>
+         <button class="bg-[#E95A08] hover:bg-amber-800 mt-4 w-full py-2 text-white">Add to Cart</button>
     </div>
-     <div class="w-[270px]">
+     <div class=" w-full max-w-[270px] mx-auto">
         <img src="image/sample-flower-image.png" alt=""><br>
         <p class="text-center inter font-medium text-xl">Lily Blossom <br><span class="noto serif font-bold text-xl">20 USD</span></p><br>
-        <button class="bg-[#E95A08] w-[270px] hover:bg-amber-800 cursor-pointer py-2 text-white">Add to Cart</button>
+         <button class="bg-[#E95A08] hover:bg-amber-800 mt-4 w-full py-2 text-white">Add to Cart</button>
     </div>
-     <div class="w-[270px]">
+     <div class=" w-full max-w-[270px] mx-auto">
         <img src="image/sample-flower-image.png" alt=""><br>
         <p class="text-center inter font-medium text-xl">Lily Blossom <br><span class="noto serif font-bold text-xl">20 USD</span></p><br>
-        <button class="bg-[#E95A08] w-[270px] hover:bg-amber-800 cursor-pointer py-2 text-white">Add to Cart</button>
+        <button class="bg-[#E95A08] hover:bg-amber-800 mt-4 w-full py-2 text-white">Add to Cart</button>
     </div>
-     <div class="w-[270px]">
+     <div class=" w-full max-w-[270px] mx-auto">
         <img src="image/sample-flower-image.png" alt=""><br>
         <p class="text-center inter font-medium text-xl">Lily Blossom <br><span class="noto serif font-bold text-xl">20 USD</span></p><br>
-        <button class="bg-[#E95A08] w-[270px] hover:bg-amber-800 cursor-pointer py-2 text-white">Add to Cart</button>
+        <button class="bg-[#E95A08] hover:bg-amber-800 mt-4 w-full py-2 text-white">Add to Cart</button>
     </div>
-     <div class="w-[270px]">
+     <div class=" w-full max-w-[270px] mx-auto">
         <img src="image/sample-flower-image.png" alt=""><br>
         <p class="text-center inter font-medium text-xl">Lily Blossom <br><span class="noto serif font-bold text-xl">20 USD</span></p><br>
-        <button class="bg-[#E95A08] w-[270px] hover:bg-amber-800 cursor-pointer py-2 text-white">Add to Cart</button>
+         <button class="bg-[#E95A08] hover:bg-amber-800 mt-4 w-full py-2 text-white">Add to Cart</button>
     </div>
    
      
@@ -91,75 +95,65 @@
 </section>
     </header>
     <main>
-<section class="w-[1140px] grid grid-cols-2 mx-auto mt-60 gap-x-20">
-    <div class="relative mx-auto">
-        <img src="image/flower-store.png" alt=""  class="w-full h-auto rounded-md" >
-        <img src="image/trusted-badge.png" alt="" class="absolute -top-35 -right-25 m-2 w-80 h-80 drop-shadow-xl" >
-    </div>
+ <section class="max-w-[1140px] grid grid-cols-1 md:grid-cols-2 gap-15 mx-auto mt-24 px-4 items-center">
+            <div class="relative">
+                <img src="image/flower-store.png" alt="Store" class="w-full rounded-md">
+                <img src="image/trusted-badge.png" alt="Trusted Badge" class="absolute -top-20 -right-20 w-60 h-60 drop-shadow-xl">
+            </div>
 
-<div class="w-[450px] mt-15">
-<h4 class="noto-serif text-5xl font-bold    text-[#000000]">Flower & Plants <br> Lover</h4><br>
+<div class="w-[450px] mt-10">
+<h4 class="noto-serif text-3xl md:text-5xl font-bold  text-[#000000]">Flower & Plants <br> Lover</h4><br>
 
- <li class="text-xl font-normal inter text-[#000000]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li><br>
-<li class="text-xl font-normal inter text-[#000000]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li><br>
-<li class="text-xl font-normal inter text-[#000000]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+ <li class="text-xl list-disc ml-6 mt-4 space-y-3 font-normal inter text-[#000000]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li><br>
+<li class="text-xl list-disc ml-6 mt-4 space-y-3 font-normal inter text-[#000000]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li><br>
+<li class="text-xl list-disc ml-6 mt-4 space-y-3 font-normal inter text-[#000000]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
 
 
 </div>
 </section>
 
 <section class="grid place-items-center mt-30 text-center" >
-    <h4 class="noto-serif text-5xl font-bold ">
+    <h4 class="noto-serif text-3xl md:text-5xl font-bold ">
      <span class="text-[#E95A08] ">Latest</span>  Deals
     </h4> <br>
     <p class="inter font-normal text-xl ">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br>classic roses to exotic blooms, we offer a wide variety of fresh.</p>
 </section>
-<section class="w-[1140px] mx-auto mt-30">
-<div class="grid grid-cols-1 lg:grid-cols-3 gap-4 p-6 bg-[#f5f8ff]">
-
-  <!-- Left Side: Two stacked cards (Grid) -->
-  <div class="grid gap-4">
-    
-    <!-- Card 1 -->
-    <div class="relative h-40 rounded-xl overflow-hidden bg-cover bg-center bg-[url('./image/deal-bloom.png')]">
-      <div class="absolute inset-0 bg-black/40 grid place-items-center text-white text-center">
-        <div>
-          <h3 class="text-lg font-bold">60% Off | Bloom Plant</h3>
-          <a href="#" class="underline mt-1 text-sm font-semibold block hover:text-blue-600 ">Shop Now</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Card 2 -->
-    <div class="relative h-40 rounded-xl overflow-hidden bg-cover bg-center bg-[url('./image/deal-ana.png')]">
-      <div class="absolute inset-0 bg-black/40 grid place-items-center text-white text-center">
-        <div>
-          <h3 class="text-lg font-bold">30% Off | Ana Plant</h3>
-          <a href="#" class="underline mt-1 text-sm font-semibold block  hover:text-blue-600">Shop Now</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Right Side: Big card (2-column span) -->
-  <div class="lg:col-span-2">
-    <div class="relative h-96 rounded-xl overflow-hidden bg-cover bg-center bg-[url('./image/deal-zabo.png')]">
-      <div class="absolute inset-0 bg-black/40 grid place-items-center text-white text-center">
-        <div>
-          <h3 class="text-2xl font-bold">25% Off | Zabo Plant</h3>
-          <a href="#" class="underline mt-2 text-base font-semibold block  hover:text-blue-600">Shop Now</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</div>
-
-</section >
+<section class="max-w-[1140px] mx-auto mt-12 px-4 grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <!-- Left Column -->
+            <div class="grid gap-6">
+                <div class="relative h-48 bg-[url('image/deal-bloom.png')] bg-cover bg-center rounded-xl overflow-hidden">
+                    <div class="absolute inset-0 bg-black/40 flex items-center justify-center text-white">
+                        <div class="text-center">
+                            <h3 class="text-lg font-bold">60% Off | Bloom Plant</h3>
+                            <a href="#" class="underline text-sm hover:text-blue-600">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative h-48 bg-[url('image/deal-ana.png')] bg-cover bg-center rounded-xl overflow-hidden">
+                    <div class="absolute inset-0 bg-black/40 flex items-center justify-center text-white">
+                        <div class="text-center">
+                            <h3 class="text-lg font-bold">30% Off | Ana Plant</h3>
+                            <a href="#" class="underline text-sm hover:text-blue-600">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Right Column -->
+            <div class="lg:col-span-2">
+                <div class="relative h-102 bg-[url('image/deal-zabo.png')] bg-cover bg-center rounded-xl overflow-hidden">
+                    <div class="absolute inset-0 bg-black/40 flex items-center justify-center text-white">
+                        <div class="text-center">
+                            <h3 class="text-2xl font-bold">25% Off | Zabo Plant</h3>
+                            <a href="#" class="underline text-base hover:text-blue-600">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
  
 
-<section  class=" mt-40 mb-5 ">
+<section  class=" mt-20 mb-5 ">
 <!-- Subscription Section -->
 <div class="relative bg-[url('./image/news-letter-bg.png')] bg-cover bg-center h-96 flex flex-col justify-center items-center text-white text-center px-4">
   <h2 class="text-3xl md:text-4xl font-bold noto-serif mb-6">Join the colorful Bunch</h2>
@@ -177,9 +171,9 @@
  </main>
  
 <!-- Footer Section -->
-<footer class="  mt-5 grid grid-cols-1 md:grid-cols-3 gap-8 px-6 py-8 bg-white text-gray-700 items-start">
+<footer class="  mt-5 grid grid-cols-1 md:grid-cols-3 gap-8 px-6 py-12 bg-white text-gray-700 items-start">
   <!-- Left -->
-  <div class="mx-20">
+  <div>
     <div class="flex items-center  mb-4">
       <img src="./image/logo.png" alt="Logo" class="w-20 h-20 mr-2">
     </div>
@@ -187,7 +181,7 @@
   </div>
 
   <!-- Center Links -->
-  <div class="grid grid-cols-2 gap-15 text-sm">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 text-sm">
     <div class="space-y-5">
       <a href="#" class="block hover:underline hover:text-blue-500 inter text-xl font-normal">Home</a>
       <a href="#" class="block hover:underline hover:text-blue-500 inter text-xl font-normal">About Us</a>
@@ -205,10 +199,10 @@
   </div>
 
   <!-- Right Social Icons -->
-  <div class="flex items-start justify-start md:justify-end space-x-10 text-5xl mt-2">
-    <a href="#" class="text-blue-600"><i class="fab fa-linkedin"></i></a>
+  <div class="flex justify-start md:justify-end items-start space-x-6 text-2xl mt-2">
+    <a href="https://www.linkedin.com/feed/" class="text-blue-600"><i class="fab fa-linkedin"></i></a>
     <a href="#" class="text-black"><i class="fas fa-times"></i></a>
-    <a href="#" class="text-blue-500"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.facebook.com/share/1BBKCscvdB/" class="text-blue-500"><i class="fab fa-facebook"></i></a>
     <a href="#" class="text-red-500"><i class="fab fa-youtube"></i></a>
   </div>
 </footer>
