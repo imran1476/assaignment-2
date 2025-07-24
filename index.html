@@ -108,14 +108,112 @@
 </div>
 </section>
 
-<section>
-    <h4>
-        Latest  Deals
-    </h4>
+<section class="grid place-items-center mt-30 text-center" >
+    <h4 class="noto-serif text-5xl font-bold ">
+     <span class="text-[#E95A08] ">Latest</span>  Deals
+    </h4> <br>
+    <p class="inter font-normal text-xl ">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br>classic roses to exotic blooms, we offer a wide variety of fresh.</p>
 </section>
-    </main>
-    <footer>
+<section class="w-[1140px] mx-auto mt-30">
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-4 p-6 bg-[#f5f8ff]">
 
-    </footer>
+  <!-- Left Side: Two stacked cards (Grid) -->
+  <div class="grid gap-4">
+    
+    <!-- Card 1 -->
+    <div class="relative h-40 rounded-xl overflow-hidden bg-cover bg-center bg-[url('/image/deal-bloom.png')]">
+      <div class="absolute inset-0 bg-black/40 grid place-items-center text-white text-center">
+        <div>
+          <h3 class="text-lg font-bold">60% Off | Bloom Plant</h3>
+          <a href="#" class="underline mt-1 text-sm font-semibold block hover:text-blue-600 ">Shop Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="relative h-40 rounded-xl overflow-hidden bg-cover bg-center bg-[url('/image/deal-ana.png')]">
+      <div class="absolute inset-0 bg-black/40 grid place-items-center text-white text-center">
+        <div>
+          <h3 class="text-lg font-bold">30% Off | Ana Plant</h3>
+          <a href="#" class="underline mt-1 text-sm font-semibold block  hover:text-blue-600">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right Side: Big card (2-column span) -->
+  <div class="lg:col-span-2">
+    <div class="relative h-96 rounded-xl overflow-hidden bg-cover bg-center bg-[url('/image/deal-zabo.png')]">
+      <div class="absolute inset-0 bg-black/40 grid place-items-center text-white text-center">
+        <div>
+          <h3 class="text-2xl font-bold">25% Off | Zabo Plant</h3>
+          <a href="#" class="underline mt-2 text-base font-semibold block  hover:text-blue-600">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</section >
+
+ 
+
+<section  class=" mt-40 mb-5 ">
+<!-- Subscription Section -->
+<div class="relative bg-[url('/image/news-letter-bg.png')] bg-cover bg-center h-96 flex flex-col justify-center items-center text-white text-center px-4">
+  <h2 class="text-3xl md:text-4xl font-bold noto-serif mb-6">Join the colorful Bunch</h2>
+
+  <form class="flex w-full max-w-xl">
+    <input type="email" placeholder="Write email" 
+           class="flex-grow px-4 py-2 rounded-l-md text-black focus:outline-none bg-white" />
+    <button type="submit" 
+            class="bg-orange-500 text-white px-6 py-2 inter rounded-r-md font-semibold hover:bg-orange-600">
+      Subscribe
+    </button>
+  </form>
+</div>
+</section>
+ </main>
+ 
+<!-- Footer Section -->
+<footer class="  mt-5 grid grid-cols-1 md:grid-cols-3 gap-8 px-6 py-8 bg-white text-gray-700 items-start">
+  <!-- Left -->
+  <div class="mx-20">
+    <div class="flex items-center  mb-4">
+      <img src="/image/logo.png" alt="Logo" class="w-20 h-20 mr-2">
+    </div>
+    <p class="inter text-xl font-normal ">Indulge your senses with the <br>beauty and fragrance of our fresh <br>flower shop.</p>
+  </div>
+
+  <!-- Center Links -->
+  <div class="grid grid-cols-2 gap-15 text-sm">
+    <div class="space-y-5">
+      <a href="#" class="block hover:underline hover:text-blue-500 inter text-xl font-normal">Home</a>
+      <a href="#" class="block hover:underline hover:text-blue-500 inter text-xl font-normal">About Us</a>
+      <a href="#" class="block hover:underline hover:text-blue-500 inter text-xl font-normal">Blog</a>
+      <a href="#" class="block hover:underline hover:text-blue-500  inter text-xl font-normal">FAQ</a>
+      <a href="#" class="block hover:underline hover:text-blue-500 inter text-xl font-normal">Contact Us</a>
+    </div>
+    <div class="space-y-5">
+      <a href="#" class="block hover:underline hover:text-blue-500 inter text-xl font-normal">Features</a>
+      <a href="#" class="block hover:underline hover:text-blue-500 inter text-xl font-normal">Pricing</a>
+      <a href="#" class="block hover:underline hover:text-blue-500  inter text-xl font-normal">Privacy Policy</a>
+      <a href="#" class="block hover:underline hover:text-blue-500  inter text-xl font-normal">Terms of Service</a>
+      <a href="#" class="block hover:underline hover:text-blue-500 inter text-xl font-normal">Help Center</a>
+    </div>
+  </div>
+
+  <!-- Right Social Icons -->
+  <div class="flex items-start justify-start md:justify-end space-x-10 text-5xl mt-2">
+    <a href="#" class="text-blue-600"><i class="fab fa-linkedin"></i></a>
+    <a href="#" class="text-black"><i class="fas fa-times"></i></a>
+    <a href="#" class="text-blue-500"><i class="fab fa-facebook"></i></a>
+    <a href="#" class="text-red-500"><i class="fab fa-youtube"></i></a>
+  </div>
+</footer>
+
+ 
+   
 </body>
 </html>
